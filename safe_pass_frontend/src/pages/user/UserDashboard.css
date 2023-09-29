@@ -1,0 +1,48 @@
+/* UserDashboard.css */
+
+.user-dashboard-container {
+  margin-left: 33%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 14%;
+}
+
+.user-info-card {
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+  background-color: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.user-info-card .card-header {
+  background-color: #e5e5e5;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.user-info-card .list-group-item {
+  border: none;
+  padding: 15px;
+}
+
+.user-info-card .list-group-item:first-child {
+  border-top: none;
+}
+
+.user-info-card .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.user-info-card .list-group-item:hover {
+  background-color: #f2f2f2;
+}
+
+.col-sm-8 h4 {
+  margin-top: 0;
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+version: "3"
+services:
+  react-app:
+    image: react-app
+    build: ./safe_pass_frontend/
+    stdin_open: true
+    ports:
+      - "3000:3000"
+    networks:
+      - safe-pass-app
+    volumes:
+      - ./safe_pass_frontend/:/usr/src/app
+      - /usr/src/app/node_modules
+
+  api-server:
+    image: api-server
+    build: ./avc_backend/
+    ports:
+      - "8000:8000"
+    networks:
+      - safe-pass-app
+    volumes:
+      - ./avc_backend/:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - MONGO_URL=mongodb+srv://SafePass_4:SafePass_4@cluster0.juh7o5e.mongodb.net/?retryWrites=true&w=majority
+
+networks:
+  safe-pass-app:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local

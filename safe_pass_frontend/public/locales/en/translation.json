@@ -1,0 +1,29 @@
+{
+  "HOME": "Home",
+  "RESEARCH_OBJECTIVE": "Research Objective",
+  "GUIDLINES": "Guidlines",
+  "LOG_OUT": "Log out",
+
+  "SIGN_UP": "Sign Up",
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "PASSWORD": "Password",
+  "REGISTER": "Register",
+
+  "SIGN_IN": "Sign In",
+  "LOGIN": "Login",
+
+  "ENTRIES": "Entries",
+  "DATE": "Date",
+  "TIME": "Time",
+  "LAST_ON": "Last On",
+  "VIEW_DATA": "View Data",
+
+  "ADD_RECORD": "Add Record",
+  "ANALYTICS": "Analytics",
+  "DASHBOARD": "Dashboard",
+  "DATABASE": "Database",
+  "PROTECTED_AREAS": "Protected Areas",
+
+  "PROPOSED_ELEPHANT_CORRIDORS_UNDER_THE DEPARTMENT_OF_WILDLIFE_CONSERVATION": "Proposed Elephant Corridors Under the Department of Wildlife Conservation"
+}

@@ -1,0 +1,29 @@
+{
+  "HOME": "මුල් පිටුව",
+  "RESEARCH_OBJECTIVE": "පර්යේෂණ අරමුණ",
+  "GUIDLINES": "මාර්ගෝපදේශ",
+  "LOG_OUT": "පිටවීම",
+
+  "SIGN_UP": "ලියාපදිංචි වන්න",
+  "NAME": "නම",
+  "EMAIL": "ඊමේල්",
+  "PASSWORD": "මුරපදය",
+  "REGISTER": "ලියාපදිංචි කරන්න",
+
+  "SIGN_IN": "ඇතුළු වන්න",
+  "LOGIN": "ඇතුළු වන්න",
+
+  "ENTRIES": "ඇතුල්කල පිළිතුරු",
+  "DATE": "දිනය",
+  "TIME": "වේලාව",
+  "LAST_ON": "අවසන් දිනය",
+  "VIEW_DATA": "දත්ත බැලීම",
+
+  "ADD_RECORD": "වාර්තාව එක් කරන්න",
+  "ANALYTICS": "විශ්ලේෂණ",
+  "DASHBOARD": "දත්ත පුවරුව",
+  "DATABASE": "දත්ත සමුදාය",
+  "PROTECTED_AREAS": "ආරක්ෂිත කලාප",
+
+  "PROPOSED_ELEPHANT_CORRIDORS_UNDER_THE DEPARTMENT_OF_WILDLIFE_CONSERVATION": "වනජීවී සංරක්ෂණ දෙපාර්තමේන්තුව යටතේ යෝජිත අලි මංකඩ"
+}

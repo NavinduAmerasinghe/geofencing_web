@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  react-app:
+    image: react-app-production
+    restart: unless-stopped
+    ports:
+      - "80:80" #http
+      - "443:443" #port https
+    networks:
+      - safe-pass-app
+
+  api-server:
+    image: api-server
+    restart: unless-stopped
+    # env_file: ./avc_backend/config/${ENV}.env
+    env_file: ./avc_backend/.env
+    ports:
+      - "8000:8000"
+    networks:
+      - safe-pass-app
+
+networks:
+  safe-pass-app:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local

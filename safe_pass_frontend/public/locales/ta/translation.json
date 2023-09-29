@@ -1,0 +1,29 @@
+{
+  "HOME": "முகப்பு",
+  "RESEARCH_OBJECTIVE": "ஆராய்ச்சி உண்மைகள்",
+  "GUIDLINES": "வழிகாட்டுதல்கள்",
+  "LOG_OUT": "வெளியேறு",
+
+  "SIGN_UP": "பதிவு செய்க",
+  "NAME": "பெயர்",
+  "EMAIL": "மின்னஞ்சல்",
+  "PASSWORD": "கடவுச்சொல்",
+  "REGISTER": "பதிவு செய்க",
+
+  "SIGN_IN": "உள்நுழைக",
+  "LOGIN": "உள்நுழைக",
+
+  "ENTRIES": "உள்ளீடுகள்",
+  "DATE": "தேதி",
+  "TIME": "நேரம்",
+  "LAST_ON": "கடைசியாக",
+  "VIEW_DATA": "தரவைப் பார்க்க",
+
+  "ADD_RECORD": "பதிவேடு சேர்க்க",
+  "ANALYTICS": "பகுப்பாய்வு",
+  "DASHBOARD": "டாஷ்போர்டு",
+  "DATABASE": "டேட்டாபேஸ்",
+  "PROTECTED_AREAS": "பாதுகாப்பு பகுதிகள்",
+
+  "PROPOSED_ELEPHANT_CORRIDORS_UNDER_THE DEPARTMENT_OF_WILDLIFE_CONSERVATION": "வனவிலங்கு பாதுகாப்புத் துறையின் கீழ் முன்மொழியப்பட்ட யானைகள் வழித்தடங்கள்"
+}

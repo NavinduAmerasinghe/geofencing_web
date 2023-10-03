@@ -160,13 +160,22 @@ exports.getObservations = async (req, res, next) => {
 };
 
 //Retrive a single observation by ID
+const DOMPurify = require("dompurify");
+
 exports.getObservation = async (req, res, next) => {
   try {
     const observation = await WildlifeObservation.findById(req.params.id);
     if (!observation) {
       return res.status(404).send();
     }
-    res.send(observation);
+
+    // Sanitize the observation data before sending it to the client
+    const sanitizedObservation = {
+      // Sanitize  properties that contain user-generated content
+      description: DOMPurify.sanitize(observation.description),
+    };
+
+    res.send(sanitizedObservation);
   } catch (error) {
     console.log(error);
     next(error);

@@ -15,6 +15,7 @@
     "cloudinary": "^1.30.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
+    "dompurify": "^3.0.6",
     "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",

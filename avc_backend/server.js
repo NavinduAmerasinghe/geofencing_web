@@ -8,6 +8,8 @@ const morgan = require("morgan");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
+const csrf = require("csurf"); // Import the csurf middleware
+const session = require("express-session"); // Import express-session for managing sessions
 const errorHandler = require("./middleware/error");
 const multer = require("multer");
 //route paths
@@ -31,6 +33,20 @@ app.use(
     extended: false,
   })
 );
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true,
+  })
+);
+app.use(cookieParser());
+
+// Add the csurf middleware after express-session
+const csrfProtection = csrf({ cookie: true });
+
+// Use middleware for CSRF protection
+app.use(csrfProtection);
 app.use(cors());
 app.use(express.json());
 
@@ -51,8 +67,17 @@ app.use(express.json());
 
 app.get("/get", (req, res) => {
   res.send("Safe Pass");
+  res.render("some_template", { csrfToken: req.csrfToken() });
 });
 
+// Check for CSRF errors in your error handler middleware
+app.use((err, req, res, next) => {
+  if (err.code === "EBADCSRFTOKEN") {
+    res.status(403).send("CSRF token validation failed.");
+  } else {
+    next(err);
+  }
+});
 app.get("/", (req, res) => {
   res.json({ message: "API running..." });
 });

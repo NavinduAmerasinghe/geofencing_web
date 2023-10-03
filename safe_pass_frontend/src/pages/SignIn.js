@@ -9,8 +9,8 @@ import { useTranslation } from "react-i18next";
 const SignIn = ({ history }) => {
   const { t, i18n } = useTranslation();
   const [values, setValues] = useState({
-    email: "dulnathamerasinghe@gmail.com",
-    password: "Dulnath@123",
+    email: "",
+    password: "",
   });
   const [visible, setVisible] = useState(false);
 

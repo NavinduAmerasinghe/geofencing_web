@@ -241,6 +241,8 @@ exports.updateObservation = async (req, res, next) => {
   }
 };
 
+const escapeHtml = require("escape-html");
+
 exports.deleteObservation = async (req, res) => {
   try {
     const observation = await WildlifeObservation.findByIdAndDelete(
@@ -249,7 +251,11 @@ exports.deleteObservation = async (req, res) => {
     if (!observation) {
       return res.status(404).send();
     }
-    res.send(observation);
+
+    // Escape user-generated content before rendering it in the HTML response
+    const escapedObservation = escapeHtml(observation);
+
+    res.send(escapedObservation);
   } catch (error) {
     console.log(error);
     next(error);

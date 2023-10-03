@@ -1,4 +1,5 @@
 const express = require("express");
+const helmet = require("helmet");
 const app = express();
 require("dotenv").config();
 const connectDB = require("./database/db");
@@ -20,6 +21,7 @@ const animalRoutes = require("./routes/yoloIdentificationRoute");
 connectDB();
 
 //middlewares
+app.use(helmet());
 app.use(morgan("dev"));
 app.use(bodyParser.json({ limit: "100mb" }));
 app.use(

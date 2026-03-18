@@ -1,48 +1,146 @@
-# TMP-23-093
+# 🚧 Real-Time Alert System for Road Safety to Prevent Animal-Vehicle Conflicts in Sri Lanka
 
-REAL-TIME ALERT SYSTEM FOR ROAD SAFTEY TO PREVENT ANIMAL_VEHICLE CONFLICTS IN SRILANKA
+**Project Code:** TMP-23-093  
 
+---
 
-#Main objective
-The study combines knowledge-based case studies and crowd-sourcing to find animal habitats and behaviors based on location. Data collected from News and Weather APIs will be used for geofencing, location-based notifications, ads, and filters through geotargeting and RSS feeds. Image processing is used to identify objects using YOLOv3 technology. Ultrasonic sensors, a microcontroller, the Doppler Effect, and relative velocity calculations are used to segment the signal-to-noise ratio and alert the driver of any nearby animals. Guidelines are established for methods to reduce animal-vehicle collisions and for informing others of the implementation of these methods. Users can also access feedback and insights from others regarding their experiences in similar situations.
+## 📌 Overview
+This project presents an **AI-powered, IoT-enabled road safety system** designed to reduce animal-vehicle collisions in Sri Lanka.  
 
-#Main Research questions
-What are the steps drivers can take to reduce the risk of animal-vehicle collisions?
-What are the most common types of animals involved in vehicle collisions in Sri Lanka?
-What are the main reasons for animal-vehicle collisions in Sri Lanka?
-Are there any measures in place to prevent animal-vehicle collisions?
-Are there any innovative technologies or methods being introduced or developed to reduce the incidence of animal-vehicle collisions?
-How effective are warning signs , systems and speed limits in reducing animal-vehicle collisions?
+It integrates **computer vision, geofencing, real-time data processing, and sensor-based detection** to identify nearby wildlife and alert drivers proactively.
 
-#Individual research question
-##IT20383152
-What do you believe causes the majority of road accidents involving animals?
-Do you believe the majority of road accidents are caused by human mistakes? 
-Do we have detailed information on animal habitats and animal crossings in Sri Lanka?
-Would you like to know the percentage of yearly human and animal deaths caused by traffic accidents?
-Have you or a member of your family been in, or nearly been in, an animal-related accident? 
-Do you believe that these accidents should be avoided for both humans and animals? Are the precautions taken against it sufficient?
+The system combines **crowd-sourced data, environmental data (weather/news APIs), and intelligent detection mechanisms** to improve road safety for both humans and wildlife.
 
-##IT20158804
-Have you noticed any efforts in your area to reduce the risk of animal-vehicle collision?
-What is the most effective way to alert drivers to the presence of animals on road?
-What steps do you think can be taken to prevent animal-vehicle accidents?
-Could identifying animals and warning drivers be beneficial in reducing vehicle-animal accidents?
+---
 
-##IT20205874
-Do you think that it is essential to have an alert system to avoid animal-vehicle collisions in Sri Lanka?
-Do you believe that animal-vehicle collisions are caused by a failure to recognize the animal?
-Why would you unable to identify the animals while you are driving?
+## 🎯 Main Objective
+The objective of this research is to develop a **real-time alert system** that detects animals near roads and provides timely warnings to drivers using:
 
-##IT20153090
-Are you aware that there are a large number of animal-vehicle collisions every year?
-Have you come across any device or mobile application that has been designed to reduce animal-vehicle collisions?
-What time of day do you think animal-vehicle collisions happen the most?
-Which mitigation method do you think would be the most effective in reducing animal-vehicle collisions?
-Would you be willing to pay extra fees for a wildlife detection system in your vehicle?
+- 🧠 Knowledge-based habitat and behavior analysis  
+- 🌍 Geofencing and location-based intelligence  
+- 📡 Real-time data from News & Weather APIs  
+- 👁️ Computer vision using **YOLOv3** for object detection  
+- 📶 Ultrasonic sensors and Doppler effect for motion detection  
+- 📊 Signal-to-noise ratio analysis for accurate detection  
 
-#Individual Objectives
-Sub Objective- 01(IT20383152)  Knowledge-based case study for animal habitat, behaviour, and interaction
-Sub Objective- 02(IT20205874) (Seen & Identification) Animal analysis by identification using devices, image processing, and human vision
-Sub Objective- 03(IT20153090) (Unseen & Identification) Detection and identification of animals by their frequency and wavelength
-Sub Objective- 04(IT20158804)  Alternatives to or reductions in animal-vehicle collisions Resources.
+The system also provides:
+- Location-based alerts and notifications  
+- Crowd-sourced insights and feedback  
+- Guidelines to reduce animal-vehicle collisions  
+
+---
+
+## ❓ Research Questions
+
+### 🔹 General Research Questions
+- What steps can drivers take to reduce animal-vehicle collisions?  
+- What are the most common animals involved in collisions in Sri Lanka?  
+- What are the main causes of these accidents?  
+- What prevention measures currently exist?  
+- What innovative technologies can reduce such incidents?  
+- How effective are warning systems, signs, and speed limits?  
+
+---
+
+## 🧑‍🔬 Individual Research Questions
+
+### 👤 IT20383152
+- What causes the majority of animal-related road accidents?  
+- Are human errors a major factor?  
+- Is there sufficient data on animal habitats and crossings?  
+- What are the statistics of human and animal fatalities?  
+- Have individuals experienced near-miss or actual incidents?  
+- Are current precautions sufficient?  
+
+---
+
+### 👤 IT20158804
+- Are there existing efforts to reduce collisions?  
+- What is the most effective driver alert method?  
+- What preventive steps can be implemented?  
+- Can real-time animal detection reduce accidents?  
+
+---
+
+### 👤 IT20205874
+- Is an alert system essential in Sri Lanka?  
+- Are collisions due to failure in recognizing animals?  
+- Why do drivers fail to detect animals in time?  
+
+---
+
+### 👤 IT20153090
+- Are people aware of the scale of these accidents?  
+- Are there existing systems or applications?  
+- When do most collisions occur (time of day)?  
+- Which mitigation strategies are most effective?  
+- Are users willing to pay for such systems?  
+
+---
+
+## 🎯 Individual Objectives
+
+| Objective | Description |
+|----------|-------------|
+| **Sub Objective 01 (IT20383152)** | Study animal habitats, behavior, and interactions using knowledge-based analysis |
+| **Sub Objective 02 (IT20205874)** | Detect and identify animals using image processing and human-assisted vision |
+| **Sub Objective 03 (IT20153090)** | Detect unseen animals using frequency and wavelength analysis |
+| **Sub Objective 04 (IT20158804)** | Identify alternative methods to reduce animal-vehicle collisions |
+
+---
+
+## 🧠 System Components
+
+- **AI / Computer Vision:** YOLOv3 for animal detection  
+- **IoT Sensors:** Ultrasonic sensors for distance and motion detection  
+- **Microcontroller:** Processes sensor data in real time  
+- **Geofencing Module:** Location-based alerts  
+- **Data Sources:** Weather APIs, News APIs, crowd-sourced inputs  
+- **Signal Processing:** Doppler effect and SNR calculations  
+
+---
+
+## 🚀 Key Features
+
+- ✅ Real-time wildlife detection  
+- ✅ Driver alert system (visual/audio)  
+- ✅ Location-based geofencing alerts  
+- ✅ Crowd-sourced reporting  
+- ✅ AI-powered object detection  
+- ✅ Sensor-based unseen animal detection  
+
+---
+
+## 🌍 Impact
+
+This system aims to:
+- Reduce road accidents involving animals  
+- Improve driver awareness and safety  
+- Protect wildlife ecosystems  
+- Provide data-driven insights for authorities  
+
+---
+
+## 📈 Future Enhancements
+
+- 🔹 Integration with smart vehicles  
+- 🔹 Mobile application for alerts  
+- 🔹 Advanced ML models (YOLOv7 / YOLOv8)  
+- 🔹 Cloud-based analytics dashboard  
+- 🔹 Real-time GPS tracking integration  
+
+---
+
+## 👨‍💻 Author
+
+**Navindu Amerasinghe**  
+Software Engineer | AI & IoT Enthusiast  
+
+🌐 Portfolio: https://navindu-amerasinghe.vercel.app/  
+💼 LinkedIn: (Add your link here)  
+
+---
+
+## ⭐ Support
+
+If you found this research valuable, consider giving it a ⭐ on GitHub!

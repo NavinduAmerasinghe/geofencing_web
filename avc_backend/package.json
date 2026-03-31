@@ -20,12 +20,12 @@
     "dotenv": "^16.0.3",
     "escape-html": "^1.0.3",
     "express": "^4.17.1",
-    "express-session": "^1.17.3",
+    "express-session": "^1.18.2",
     "helmet": "^7.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^7.1.0",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
     "nodemon": "^2.0.22",
     "react-native-google-matrix": "^0.0.3"
   }
